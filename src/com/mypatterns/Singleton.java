@@ -1,6 +1,7 @@
 /**
  *  Java program to demonstrate Singleton pattern.
  */
+
 package com.mypatterns;
 
 /**
@@ -39,6 +40,7 @@ public class Singleton extends Thread {
 
             // Printing hash of exception.
             System.out.println(ex.getStackTrace());
+            
         }
     }
 }
